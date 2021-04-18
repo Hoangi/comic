@@ -115,7 +115,7 @@ img{
 
 
 /* iPads (portrait) ----------- */
-@media only screen and (min-width : 800px) {
+@media only screen and (min-width : 1800px) {
     .main{
         max-width: 800px;
     }
