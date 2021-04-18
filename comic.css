@@ -1,5 +1,6 @@
 .main{
     max-width: 100%;
+    overflow-x: hidden;
     margin-left: auto;
     margin-right: auto;
 }
@@ -111,7 +112,7 @@ img{
 
 
 /* iPads (portrait) ----------- */
-@media only screen and (min-width : 800px) {
+@media only screen and (min-width : 1000px) {
     .main{
         max-width: 800px;
     }
