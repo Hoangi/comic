@@ -1,0 +1,162 @@
+.main{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{  
+    position: relative;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+
+.panel19{
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.panelborder{
+    border: solid 5px;
+}
+
+#bubble1b{
+    position: absolute;
+    width: 15%;
+    top: 25%;
+    left: 50%;
+}
+
+#bubble8b{
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    left: 35%;
+}
+
+#bubble11-2b{
+    position: absolute;
+    width: 30%;
+    top: 20%;
+    left: 20%;
+}
+
+#bubble19-1b1{
+    position: absolute;
+    width: 30%;
+    top: 15%;
+    left: 25%;
+}
+
+#bubble19-1b2{
+    position: absolute;
+    width: 10%;
+    top: 55%;
+    left: 65%;
+}
+
+#bubble1btext{
+    position: absolute;
+    width: 20%;
+    top: 22%;
+    left: 55%;
+}
+
+.alignright{
+    text-align: end;
+}
+.aligncenter{
+    text-align:center;
+}
+
+.panelsmall{
+    width: 50%;
+}
+
+.panelmedium{
+    width: 70%;
+}
+
+.desktopPanelSmallToNormal{
+    width:50%;
+}
+
+.extraspace{
+    height: 20em;
+}
+
+
+
+.blackbackground{
+    background-color: black;
+}
+
+.box{
+    float: left;
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+.height200px{
+    height: 200px;
+}
+
+.height500px{
+    height: 500px;
+}
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 800px) {
+    .main{
+        max-width: 800px;
+    }
+
+    .desktoprow{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .space{
+        margin-left: 10px;
+    }
+
+    img{
+        margin-left: 4px;
+        margin-bottom: 10%;
+    }
+
+    .box{
+        margin-bottom: 10%;
+    }
+
+    .panelsmall{
+        width: 30%;
+    }
+
+    .desktopPanelSmallToNormal{
+        width: 100%;
+    }
+
+    .panelmedium{
+        width: 50%;
+    }
+        
+
+}
+
+/* iPads (landscape) ----------- */
+/* @media only screen and (min-width : 1224px) {
+
+   } */
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1824px) {
+    .main{
+        max-width: 34%;
+    }
+}
