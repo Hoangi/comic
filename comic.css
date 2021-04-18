@@ -118,7 +118,6 @@ img{
 @media only screen and (min-width : 1000x) {
     .main{
         max-width: 800px;
-        background-color: aqua;
     }
 
     .desktoprow{
