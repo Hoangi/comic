@@ -92,8 +92,6 @@ img{
     height: 20em;
 }
 
-
-
 .blackbackground{
     background-color: black;
 }
@@ -115,9 +113,9 @@ img{
 
 
 /* iPads (portrait) ----------- */
-@media only screen and (min-width : 900px) {
+@media only screen and (min-width : 768px) {
     .main{
-        max-width: 800px;
+        max-width: 768px;
     }
 
     .desktoprow{
@@ -152,11 +150,6 @@ img{
         
 
 }
-
-/* iPads (landscape) ----------- */
-/* @media only screen and (min-width : 1224px) {
-
-   } */
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1824px) {
